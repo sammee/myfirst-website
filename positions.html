@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-positions</title>
+</head>
+<body style="
+height: 3000px;
+padding-top: 60px;
+padding-left: 185px;">
+    <div style="
+    background-color: rgb(85, 84, 84);
+    color: white;
+    height: 50px;
+    position: fixed;
+    top: 5px;
+
+    right: 0px;
+    left: 0px;">Header</div>
+    <div style="
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 300px;
+    right: 10px;
+    width: 120px;
+    z-index: 1000;">
+        position_absolute
+    </div>
+    <div style="background-color:rgb(164, 164, 164);
+    color: white;
+    width: 180px;
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;">sidebar
+    <div style="
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 15px;
+    z-index: 1000;"> X
+    </div>
+    </div>
+    <div style="
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    position: static;">div1
+    </div>
+    <div style="
+    background-color: lightpink;
+    height:200px;
+    width: 200px;
+    position: relative;">
+        div2
+        <div style="
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 48px;"> XYYY
+    </div>
+</body>
+</html>
